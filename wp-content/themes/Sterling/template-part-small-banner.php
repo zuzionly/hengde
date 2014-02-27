@@ -59,7 +59,7 @@ if ( is_home() || is_single() || is_archive() ) : // We are on an archive page. 
     <div class="tt-overlay"></div>
 <?php elseif ( is_404() ) : // We are on a 404 error page. ?>
     <div class="center-wrap <?php if ( 'true' !== $breadcrumbs ) echo 'banner-no-crumbs'; ?>">
-        <p class="page-banner-heading"><?php echo esc_attr( $error_title ); ?></p>
+        <!--<p class="page-banner-heading"><?php echo esc_attr( $error_title ); ?></p>-->
 
         <?php if ( 'true' == $error_searchbar ) { ?>
             <div id="banner-search">
@@ -80,7 +80,7 @@ if ( is_home() || is_single() || is_archive() ) : // We are on an archive page. 
     <div class="tt-overlay"></div>
 <?php elseif ( is_search() ) : // We are on a search page. ?>
     <div class="center-wrap <?php if ( 'true' !== $breadcrumbs ) echo 'banner-no-crumbs'; ?>">
-        <p class="page-banner-heading"><?php printf( __( 'Search Results for "%s"', 'tt_theme_framework' ), get_search_query() ); ?></p>
+        <!--<p class="page-banner-heading"><?php printf( __( 'Search Results for "%s"', 'tt_theme_framework' ), get_search_query() ); ?></p>-->
 
         <?php if ( 'true' == $error_searchbar ) { ?>
             <div id="banner-search">
@@ -101,11 +101,11 @@ if ( is_home() || is_single() || is_archive() ) : // We are on an archive page. 
     <div class="tt-overlay"></div>
 <?php else : ?>
     <div class="center-wrap <?php if ( 'true' !== $breadcrumbs ) echo 'banner-no-crumbs'; ?>">
-        <?php if ( '' != $banner_title ) : ?>
-            <p class="page-banner-heading"><!--<?php echo esc_attr( $banner_title ); ?>--></p>
+        <!--<?php if ( '' != $banner_title ) : ?>
+            <p class="page-banner-heading"><?php echo esc_attr( $banner_title ); ?></p>
         <?php else : ?>
-            <p class="page-banner-heading"><!--<?php echo esc_html( $post->post_title ); ?>--></p>
-        <?php endif; ?>
+            <p class="page-banner-heading"><?php echo esc_html( $post->post_title ); ?></p>
+        <?php endif; ?>-->
         <!--nicholas added menu bar-->
         <nav>
             <ul>

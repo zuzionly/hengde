@@ -38,4 +38,22 @@ if ( '1' == $php_error_setting )
  */
 require_once( dirname( __FILE__ ) . '/framework/framework_init.php' );
 
+//搜索结果排除某些分类的文章
+function Bing_search_filter_category( $query) {
+	if ( !$query->is_admin && $query->is_search) {
+		$query->set('cat','9'); //分类的ID，前面加负号表示排除；如果直接写ID，则表示只在该ID中搜索
+	}
+	return $query;
+}
+add_filter('pre_get_posts','Bing_search_filter_category');
+
+//搜索结果排除所有页面
+function search_filter_page($query) {
+	if ($query->is_search) {
+		$query->set('post_type', 'post');
+	}
+	return $query;
+}
+add_filter('pre_get_posts','search_filter_page');
+
 ?>
