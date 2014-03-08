@@ -236,7 +236,7 @@ background:#FFF url(images/global/bg-ui-gradient.png) left top repeat-x;
 
 #content-container {
 width:100%;
-background:#FFF url(images/global/bg-ui-gradient.png) left top repeat-x;
+background:#99CCFF url(images/global/bg-ui-gradient.png) left top repeat-x;
 }
 
 /* nicholas change z-index from 1 to 99999*/
@@ -1116,7 +1116,7 @@ padding-top:20px;
 width:224px;
 float:left;
 min-height:500px;
-background:url(images/global/image-sprite.png) 0 -100px no-repeat;
+background:#99CCFF url(images/global/image-sprite.png) 0 -100px no-repeat;
 }
 
 .sidebar > * {
