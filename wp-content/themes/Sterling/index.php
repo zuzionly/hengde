@@ -92,9 +92,9 @@ get_template_part( 'template-part-page-slider', 'childtheme' ); ?>
             ?>
         </div><!-- end .page_content -->
 
-        <aside class="sidebar">
+        <!--<aside class="sidebar">
             <?php dynamic_sidebar( 'Blog Sidebar' ); ?>
-        </aside>
+        </aside>-->
     </div><!-- end #main-wrap -->
 
 <?php get_footer(); ?>
