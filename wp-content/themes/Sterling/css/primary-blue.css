@@ -14,11 +14,6 @@ background: -ms-radial-gradient(circle, #ffffff, #ffffff);
 */
 }
 
-.small_banner,
-.banner-slider{
-background-color: #99CCFF;
-}
-
 /* IE 8/9 */
 #ie8 .top-aside,
 #ie8 .banner,
