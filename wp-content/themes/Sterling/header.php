@@ -82,7 +82,7 @@
             <nav>
                 <ul>
                     <!--<?php wp_nav_menu( array( 'container' => false, 'theme_location' => 'Main Menu', 'depth' => 0 ) ); ?>-->
-                    <li><a href="./contact">联系我们</a></li>
+                    <li><a href="/contact">联系我们</a></li>
                 </ul>
             </nav>
         </div><!-- end .center-wrap -->
