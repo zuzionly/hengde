@@ -494,7 +494,7 @@ margin-left:10px;
 }
 
 .top-aside ul li a {
-color:#99CCFF;
+color:#000;
 padding-right:9px;
 border-right:1px solid rgba(255, 255, 255, 0.3);
 font-weight:500;
@@ -625,7 +625,7 @@ opacity:1.0;
 margin-left:4px;
 }
 
-.small_banner *, .banner *{color:#99CCFF;}
+.small_banner *, .banner *{color:#000;}
 
 .dots {
 z-index:200;
@@ -827,7 +827,7 @@ color:#FFF;
 
 header nav a,
 .search .current_page_parent a {
-color:#0070B3;
+color:#000;
 }
 
 header nav ul li ul li a {
@@ -2767,7 +2767,7 @@ footer *,
 .social_links a:visited, 
 footer a:hover,
 footer span {
-color:#99CCFF;
+color:#000;
 }
 
 footer .current-menu-item a {
@@ -6242,7 +6242,7 @@ width:52px;
 
 #scroll_to_top {
 font-size:11px;
-color:#99CCFF;
+color:#000;
 font-weight:bold;
 float:right;
 background-position:0 -658px;
