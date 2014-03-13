@@ -6,11 +6,12 @@
 .small_banner,
 .banner-slider,
 footer {
-background-color: #0D5292;
-background: -webkit-gradient(radial, center center, 0, center center, 460, from(#0D9DDC), to(#0D5292));
-background: -webkit-radial-gradient(circle, #0D9DDC, #0D5292);
-background: -moz-radial-gradient(circle, #0D9DDC, #0D5292);
-background: -ms-radial-gradient(circle, #0D9DDC, #0D5292);
+background-color: #ffffff;
+/*background: -webkit-gradient(radial, center center, 0, center center, 460, from(#ffffff), to(#ffffff));
+background: -webkit-radial-gradient(circle, #ffffff, #ffffff);
+background: -moz-radial-gradient(circle, #ffffff, #ffffff);
+background: -ms-radial-gradient(circle, #ffffff, #ffffff);
+*/
 }
 
 /* IE 8/9 */
@@ -24,18 +25,18 @@ background: -ms-radial-gradient(circle, #0D9DDC, #0D5292);
 #ie9 .small_banner,
 #ie9 .banner-slider,
 #ie9 footer {
-background-color: #0D5292;
+background-color: #ffffff;
 background-image: url(../images/skins/bg-banner-blue.png);
 background-position: center center;
 background-repeat: no-repeat;
 }
 
 .top-aside ul.custom-menu li .sub-menu {
-background:#0D5292;
+background:#ffffff;
 }
 
 .top-aside ul.custom-menu li li a:hover {
-background:#0D9DDC;
+background:#ffffff;
 }
 /*--------------------------------*/
 /* Secondary Color

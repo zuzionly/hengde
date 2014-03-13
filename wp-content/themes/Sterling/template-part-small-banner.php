@@ -42,13 +42,13 @@ if ( is_home() || is_single() || is_archive() ) : // We are on an archive page. 
         </ul>
     </nav>
 	<!--end manu bar-->
-        <?php if ( 'true' == $blog_searchbar ) { ?>
+        <!--<?php if ( 'true' == $blog_searchbar ) { ?>
             <div id="banner-search">
                 <?php get_search_form(); ?>
             </div><!-- end #banner-search -->
-        <?php } else if ( '' != $blog_description ) {
+        <!--<?php } else if ( '' != $blog_description ) {
             echo '<p class="page-banner-description">' . esc_attr( $blog_description ) . '</p>';
-        } ?>
+        } ?>-->
 
         <?php if ( 'true' == $breadcrumbs ) : ?>
             <div class="breadcrumbs"><?php $bc = new simple_breadcrumb; ?></div><!-- end .breadcrumbs -->

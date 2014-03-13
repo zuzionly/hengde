@@ -1735,13 +1735,13 @@ class tt_contact_widget extends WP_Widget
     <div class="contact_details_wrap">
     <p class="address"><?php echo $address.'<br />'.$city_state; ?></p>
 
-        <p class="phone"><strong><?php _e('phone:','tt_theme_framework'); ?></strong> <?php echo $phone; ?></p>
-        <p class="fax"><strong><?php _e('fax:','tt_theme_framework'); ?></strong> <?php echo $fax; ?></p>
+        <p class="phone"><strong>电话:</strong> <?php echo $phone; ?></p>
+        <p class="fax"><strong>传真:</strong> <?php echo $fax; ?></p>
         <?php 
 		//@since 2.1.2 convert email address to ascii
 		for ($i = 0; $i < strlen($email); $i++) $encodedmail .= "&#" . ord($email[$i]) . ';'; 
 		?>
-        <p class="email"><strong><?php _e('email:','tt_theme_framework'); ?></strong> <?php echo '<a href="mailto:'.$encodedmail.'">'.$encodedmail.'</a>'; ?></p>
+        <p class="email"><strong><?php _e('Email:','tt_theme_framework'); ?></strong> <?php echo '<a href="mailto:'.$encodedmail.'">'.$encodedmail.'</a>'; ?></p>
     </div><!-- END contact_details_wrap -->
 </div>
         <?php

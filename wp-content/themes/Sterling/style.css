@@ -231,7 +231,7 @@ position:relative;
 z-index:100;
 margin:0 auto;
 padding:32px 0;
-background:#FFF url(images/global/bg-ui-gradient.png) left top repeat-x;
+background:#99CCFF;
 }
 
 #content-container {
@@ -494,7 +494,7 @@ margin-left:10px;
 }
 
 .top-aside ul li a {
-color:#FFF;
+color:#99CCFF;
 padding-right:9px;
 border-right:1px solid rgba(255, 255, 255, 0.3);
 font-weight:500;
@@ -625,7 +625,7 @@ opacity:1.0;
 margin-left:4px;
 }
 
-.small_banner *, .banner *{color:#FFF;}
+.small_banner *, .banner *{color:#99CCFF;}
 
 .dots {
 z-index:200;
@@ -827,7 +827,7 @@ color:#FFF;
 
 header nav a,
 .search .current_page_parent a {
-color:#707885;
+color:#0070B3;
 }
 
 header nav ul li ul li a {
@@ -1321,7 +1321,7 @@ display:block;
 }
 
 .banner-slider *{
-color:#FFF;
+color:#99CCFF;
 }
 
 .main-wrap-slider {
@@ -2767,7 +2767,7 @@ footer *,
 .social_links a:visited, 
 footer a:hover,
 footer span {
-color:#FFF;
+color:#99CCFF;
 }
 
 footer .current-menu-item a {
@@ -6210,9 +6210,9 @@ width:120px;
 margin:6px 0 0 8px;
 border:none;
 line-height:14px;
-height:15px;
+height:25px;
+color:#000;
 }
-
 
 
 /* ------ Flickr Widget ------ */
@@ -6242,7 +6242,7 @@ width:52px;
 
 #scroll_to_top {
 font-size:11px;
-color:#FFF;
+color:#99CCFF;
 font-weight:bold;
 float:right;
 background-position:0 -658px;
