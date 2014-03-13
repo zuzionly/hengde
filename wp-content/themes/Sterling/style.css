@@ -1321,7 +1321,8 @@ display:block;
 }
 
 .banner-slider *{
-color:#99CCFF;
+color:#000;
+font-weight:bold;
 }
 
 .main-wrap-slider {
