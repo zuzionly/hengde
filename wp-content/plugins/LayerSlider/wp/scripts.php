@@ -152,7 +152,7 @@ function ls_load_google_fonts() {
 		);
 
 		wp_enqueue_style('ls-google-fonts',
-			add_query_arg($query_args, "$protocol://fonts.googleapis.com/css" ),
+			add_query_arg($query_args, "$protocol://fonts.useso.com/css" ),
 			array(), null
 		);
 	}

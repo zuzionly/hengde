@@ -111,7 +111,7 @@ $google_font_types = array(
 		);
 	
     if( ($option_value != 'nofont' && $option_value != '')){
-	        $custom_logo_font_link = '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family='.$option_value.'" />'."\n";	
+	        $custom_logo_font_link = '<link rel="stylesheet" type="text/css" href="http://fonts.useso.com/css?family='.$option_value.'" />'."\n";	
 			$custom_logo_font_code = $css_code;
 						
 			//check if font is google font, if yes, we provide font link
@@ -213,7 +213,7 @@ $nav_bar_padding = $ttso->st_nav_bar_padding;
 
 //new option since @2.0.3 - Open Sans Recommendation
 if( ($google_font_open_sans == 'true')){
-	        $google_font_open_sans_link = '<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;lang=en-SG" />'."\n";	
+	        $google_font_open_sans_link = '<link rel="stylesheet" type="text/css" href="//fonts.useso.com/css?family=Open+Sans:300,400,600&amp;lang=en-SG" />'."\n";	
 
 $google_font_open_sans_code = '
 *{font-family:"Open Sans",arial,sans-serif !important;}
@@ -238,7 +238,7 @@ p.callout-heading {letter-spacing:0px;}
 			  }
 
     if( ($google_font != 'nofont' && $custom_google_font == '')){
-	        $google_font_link = '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family='.$google_font.'" />'."\n";	
+	        $google_font_link = '<link rel="stylesheet" type="text/css" href="http://fonts.useso.com/css?family='.$google_font.'" />'."\n";	
 			$google_font_code = 'h1, h2, h3, h4, h5, h6, .page-banner-heading, footer .foot-heading{font-family:\''.$google_font.'\', Arial, sans-serif;font-weight:400;}'."\n";
 			array_push($css_link_container,$google_font_link);
 			array_push($css_array,$google_font_code);
@@ -250,7 +250,7 @@ p.callout-heading {letter-spacing:0px;}
 	        //the google font name in css link has a plus sign.
 	        $custom_google_font_name = str_replace(" ","+",$custom_google_font); 
 	
-	        $google_custom_link =  '<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family='.$custom_google_font_name.'">'."\n";	
+	        $google_custom_link =  '<link rel="stylesheet" type="text/css" href="http://fonts.useso.com/css?family='.$custom_google_font_name.'">'."\n";	
 	        
 	        $sanitize = array('+','-'); //some font name have plus parameter, such as Special+Elite
             // remove the plus and add space to custom font name, if there is a plus between the font name.
